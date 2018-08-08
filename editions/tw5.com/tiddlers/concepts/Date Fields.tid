@@ -20,6 +20,8 @@ Values of date fields are 17-character strings:
 
 To avoid problems arising from differences of time zone, TiddlyWiki always uses [[UTC|http://en.wikipedia.org/wiki/Coordinated_Universal_Time]].
 
+The "standard" date format template for fields is thus  "[UTC]YYYY0MM0DD0hh0mm0ss0mmm"
+
 As an example, the <<.field created>> field of this tiddler has the value <<.value """<$view field="created"/>""">>.
 
 Dates can be [[converted to other formats|DateFormat]] for display:
