@@ -49,3 +49,21 @@ The following example will view the core version of the tiddler [[$:/DefaultTidd
 <$view tiddler="$:/core" subtiddler="$:/DefaultTiddlers"/>
 
 '>>
+
+!!Return the value of a field as plan text
+<<wikitext-example-without-html '
+<$view field=title format=text/>
+
+'>>
+
+!!Return the Value of a field as a date of format YYYY-0MM-0DD
+<<wikitext-example-without-html '
+<$view field=modified format=date template="YYYY-0MM-0DD"/>
+
+'>>
+
+!!Return the Value of a field as a relative date
+<<wikitext-example-without-html '
+<$view field=created format=relativedate />
+
+'>>
