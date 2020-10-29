@@ -26,7 +26,9 @@ In technical / logical terms:
 
 |!Run |!Interpretation |!Output |
 |`run` |de-duplicated union of sets |... OR run |
+|`run run2` |de-duplicated union of sets | run AND run2 |
 |`=run` |union of sets without de-duplication |... OR run |
+|`=run =run2` |union of sets without de-duplication | run AND run2 |
 |`+run` |intersection of sets |... AND run |
 |`-run` |difference of sets |... AND NOT run |
 |`~run` |else |... ELSE run |
